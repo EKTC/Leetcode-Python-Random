@@ -36,3 +36,8 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return `k = 5`, with the first five elements of `nums` being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned `k` (hence they are underscores).
 ```
+
+# Notes
+
+- There are two methods a more brute force naive apporach that uses space and is more time costly where we just find the unique numbers and fix the original array after
+- The faster approach is to use two pointers where one pointer tracks where to slot the new numbers while the other pointer moves ahead and searches for the numbers to add
