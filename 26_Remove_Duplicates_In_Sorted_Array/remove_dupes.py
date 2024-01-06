@@ -26,7 +26,7 @@ def removeDuplicates(nums) -> int:
 # ================= Solution 2 =============== #
 # This second solution is much more faster and does not use any extra space
 # The general idea is to use two pointers ah yes -> I need to realise that when your dealing with arrays two pointers is really useful
-# Now its not a left / right setup of two pointers but i think of it as fast / slow pointers
+# Now its a two pointer solution where we have fast / slow but we can do this with left / right but its not entirely two pointers but its similar enough i think
 # Where we update the slow pointer only when we find a new number to add to the set
 # The fast pointer constantly moves and as a result will reach the end of the list where we can end the algorithm
 #
